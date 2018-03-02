@@ -25,7 +25,7 @@ $tweaks = @(
 	"DisableCortana",               # "EnableCortana",
 	"DisableErrorReporting",        # "EnableErrorReporting",
 	"SetP2PUpdateLocal",            # "SetP2PUpdateInternet",
-	"DisableAutoLogger",            # "EnableAutoLogger",
+	"EnableAutoLogger",             # "DisableAutoLogger",
 	"DisableDiagTrack",             # "EnableDiagTrack",
 	"DisableWAPPush",               # "EnableWAPPush",
 
@@ -34,7 +34,7 @@ $tweaks = @(
 	# "EnableSharingMappedDrives",  # "DisableSharingMappedDrives",
 	"DisableAdminShares",           # "EnableAdminShares",
 	# "DisableSMB1",                # "EnableSMB1",
-	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
+	"SetCurrentNetworkPublic",      # "SetCurrentNetworkPrivate",
 	# "SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
 	# "DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
 	# "EnableCtrldFolderAccess",    # "DisableCtrldFolderAccess",
@@ -43,11 +43,11 @@ $tweaks = @(
 	# "DisableDefenderCloud",       # "EnableDefenderCloud",
 	# "DisableUpdateMSRT",          # "EnableUpdateMSRT",
 	# "DisableUpdateDriver",        # "EnableUpdateDriver",
-	"DisableUpdateRestart",         # "EnableUpdateRestart",
+	"EnableUpdateRestart",          # "DisableUpdateRestart",
 	"DisableHomeGroups",            # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
 	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
-	"EnableRemoteDesktop",          # "DisableRemoteDesktop",
+	"DisableRemoteDesktop",         # "EnableRemoteDesktop",
 	"DisableAutoplay",              # "EnableAutoplay",
 	"DisableAutorun",               # "EnableAutorun",
 	# "EnableStorageSense",         # "DisableStorageSense",
@@ -62,51 +62,51 @@ $tweaks = @(
 
 	### UI Tweaks ###
 	"DisableActionCenter",          # "EnableActionCenter",
-	"DisableLockScreen",            # "EnableLockScreen",
+	# "DisableLockScreen",          # "EnableLockScreen",
 	# "DisableLockScreenRS1",       # "EnableLockScreenRS1",
-	"HideNetworkFromLockScreen",    # "ShowNetworkOnLockScreen",
-	"HideShutdownFromLockScreen",   # "ShowShutdownOnLockScreen",
+	# "HideNetworkFromLockScreen",  # "ShowNetworkOnLockScreen",
+	# "HideShutdownFromLockScreen", # "ShowShutdownOnLockScreen",
 	"DisableStickyKeys",            # "EnableStickyKeys",
 	"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
-	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
+	# "ShowFileOperationsDetails",  # "HideFileOperationsDetails",
 	# "EnableFileDeleteConfirm",    # "DisableFileDeleteConfirm",
 	"HideTaskbarSearchBox",         # "ShowTaskbarSearchBox",
 	"HideTaskView",                 # "ShowTaskView",
-	"ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
-	"ShowTaskbarTitles",            # "HideTaskbarTitles",
+	# "ShowSmallTaskbarIcons",      # "ShowLargeTaskbarIcons",
+	# "ShowTaskbarTitles",          # "HideTaskbarTitles",
 	"HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
 	"ShowTrayIcons",                # "HideTrayIcons",
 	"ShowKnownExtensions",          # "HideKnownExtensions",
-	"ShowHiddenFiles",              # "HideHiddenFiles",
+	# "ShowHiddenFiles",            # "HideHiddenFiles",
 	"HideSyncNotifications"         # "ShowSyncNotifications",
 	"HideRecentShortcuts",          # "ShowRecentShortcuts",
 	"SetExplorerThisPC",            # "SetExplorerQuickAccess",
-	"ShowThisPCOnDesktop",          # "HideThisPCFromDesktop",
+	# "ShowThisPCOnDesktop",        # "HideThisPCFromDesktop",
 	# "ShowUserFolderOnDesktop",    # "HideUserFolderFromDesktop",
-	"HideDesktopFromThisPC",        # "ShowDesktopInThisPC",
+	# "HideDesktopFromThisPC",      # "ShowDesktopInThisPC",
 	# "HideDesktopFromExplorer",    # "ShowDesktopInExplorer",
-	"HideDocumentsFromThisPC",      # "ShowDocumentsInThisPC",
+	# "HideDocumentsFromThisPC",    # "ShowDocumentsInThisPC",
 	# "HideDocumentsFromExplorer",  # "ShowDocumentsInExplorer",
-	"HideDownloadsFromThisPC",      # "ShowDownloadsInThisPC",
+	# "HideDownloadsFromThisPC",    # "ShowDownloadsInThisPC",
 	# "HideDownloadsFromExplorer",  # "ShowDownloadsInExplorer",
 	"HideMusicFromThisPC",          # "ShowMusicInThisPC",
 	# "HideMusicFromExplorer",      # "ShowMusicInExplorer",
-	"HidePicturesFromThisPC",       # "ShowPicturesInThisPC",
+	# "HidePicturesFromThisPC",     # "ShowPicturesInThisPC",
 	# "HidePicturesFromExplorer",   # "ShowPicturesInExplorer",
 	"HideVideosFromThisPC",         # "ShowVideosInThisPC",
 	# "HideVideosFromExplorer",     # "ShowVideosInExplorer",
 	"Hide3DObjectsFromThisPC",      # "Show3DObjectsInThisPC",
-	# "Hide3DObjectsFromExplorer",  # "Show3DObjectsInExplorer",
+	"Hide3DObjectsFromExplorer",    # "Show3DObjectsInExplorer",
 	# "SetControlPanelViewIcons",   # "SetControlPanelViewCategories",
-	"SetVisualFXPerformance",       # "SetVisualFXAppearance",
+	# "SetVisualFXPerformance",     # "SetVisualFXAppearance",
 	# "DisableThumbnails",          # "EnableThumbnails",
-	"DisableThumbsDB",              # "EnableThumbsDB",
+	# "DisableThumbsDB",            # "EnableThumbsDB",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
 	# "EnableNumlock",              # "DisableNumlock",
 
 	### Application Tweaks ###
-	"DisableOneDrive",              # "EnableOneDrive",
-	"UninstallOneDrive",            # "InstallOneDrive",
+	# "DisableOneDrive",            # "EnableOneDrive",
+	# "UninstallOneDrive",          # "InstallOneDrive",
 	"UninstallMsftBloat",           # "InstallMsftBloat",
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
@@ -119,9 +119,9 @@ $tweaks = @(
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 	"DisableSearchAppInStore",      # "EnableSearchAppInStore",
-	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
-	"EnableF8BootMenu",             # "DisableF8BootMenu",
-	"SetDEPOptOut",                 # "SetDEPOptIn",
+	# "DisableNewAppPrompt",        # "EnableNewAppPrompt",
+	# "EnableF8BootMenu",           # "DisableF8BootMenu",
+	# "SetDEPOptOut",               # "SetDEPOptIn",
 	# "EnableMeltdownCompatFlag"    # "DisableMeltdownCompatFlag",
 
 	### Server Specific Tweaks ###
@@ -1677,7 +1677,7 @@ Function UninstallMsftBloat {
 	Get-AppxPackage "Microsoft.MinecraftUWP" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MicrosoftPowerBIForWindows" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.NetworkSpeedTest" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.MSPaint" | Remove-AppxPackage
+	# Get-AppxPackage "Microsoft.MSPaint" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Microsoft3DViewer" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.RemoteDesktop" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Print3D" | Remove-AppxPackage
@@ -1717,7 +1717,7 @@ Function InstallMsftBloat {
 	Get-AppxPackage -AllUsers "Microsoft.MinecraftUWP" | ForEach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 	Get-AppxPackage -AllUsers "Microsoft.MicrosoftPowerBIForWindows" | ForEach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 	Get-AppxPackage -AllUsers "Microsoft.NetworkSpeedTest" | ForEach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
-	Get-AppxPackage -AllUsers "Microsoft.MSPaint" | ForEach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+	# Get-AppxPackage -AllUsers "Microsoft.MSPaint" | ForEach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 	Get-AppxPackage -AllUsers "Microsoft.Microsoft3DViewer" | ForEach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 	Get-AppxPackage -AllUsers "Microsoft.RemoteDesktop" | ForEach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 	Get-AppxPackage -AllUsers "Microsoft.Print3D" | ForEach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
