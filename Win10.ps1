@@ -8,7 +8,7 @@
 # Default preset
 $tweaks = @(
 	### Require administrator privileges ###
-	"RequireAdmin",
+	# "RequireAdmin",
 
 	### Privacy Settings ###
 	"DisableTelemetry",             # "EnableTelemetry",
